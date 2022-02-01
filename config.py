@@ -1,5 +1,5 @@
 BOT_TOKEN = '5090652201:AAGs07KCzHWhUGi7ZLYlTJ2B4qHbU-Orfo8'
-PV_USERS = ['NINJAsmoke' 'lorolorey']
+PV_USERS = ['NINJAsmoke']
 #Database
 USERS = {}
 def saveDB():
