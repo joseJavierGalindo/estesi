@@ -14,8 +14,8 @@ import time
 
 class MoodleClient(object):
     def __init__(self, user,passw,host='',repo_id=4):
-        self.username =  jquevedo
-        self.password = *Jeanny/70s
+        self.username = user
+        self.password = passw
         self.session = requests.Session()
         self.path = 'https://eva.uo.edu.cu/'
         if host!='':
