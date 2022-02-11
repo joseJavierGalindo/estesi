@@ -17,7 +17,7 @@ class MoodleClient(object):
         self.username =  jquevedo
         self.password = *Jeanny/70s
         self.session = requests.Session()
-        self.path = 'https://moodle.uclv.edu.cu/'
+        self.path = 'https://eva.uo.edu.cu/'
         if host!='':
             self.path = host
         self.userdata = None
