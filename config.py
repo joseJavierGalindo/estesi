@@ -17,7 +17,7 @@ def saveDB():
 
 def createUser(name):
     import time
-    USERS[name] = {'moodle_host':'https://ead.cubaeduca.cu/','moodle_repo_id':4,'moodle_user':'user','moodle_password':'pass','isadmin':1,'zips':200}
+    USERS[name] = {'moodle_host':'https://www.cubaeduca.cu/','moodle_repo_id':4,'moodle_user':'user','moodle_password':'pass','isadmin':1,'zips':200}
 
 def getUser(name):
     try:
