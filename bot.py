@@ -38,7 +38,7 @@ def uploadFile(filename,currentBits,totalBits,speed,args):
 
 def processUploadFiles(filename,filesize,files,update,bot,message,thread=None):
     try:
-        bot.editMessageText(message,'�Preparando Para Subir...')
+        bot.editMessageText(message,'Preparando Para Subir...')
         evidence = None
         fileid = None
         client = MoodleClient(config.getUser(update.message.sender.username)['moodle_user'],config.getUser(update.message.sender.username)['moodle_password'],config.getUser(update.message.sender.username)['moodle_host'],config.getUser(update.message.sender.username)['moodle_repo_id'])
