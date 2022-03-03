@@ -21,8 +21,8 @@ class MoodleClient(object):
 
 		
 		proxies = {
-		  'http': 'http://152.206.118.70:8080',
-		  'https': 'http://secureproxy.example.com:8090',
+		  'http': '152.206.118.70:80',
+		  'https': '152.206.118.70:80',
 		}
 		
 		self.session.proxies.update(proxies)
