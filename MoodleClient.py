@@ -11,6 +11,7 @@ from requests_toolbelt import MultipartEncoder
 from functools import partial
 import uuid
 import time
+import requests
 
 class MoodleClient(object):
     def __init__(self, user,passw,host='',repo_id=4):
@@ -18,7 +19,7 @@ class MoodleClient(object):
         self.password = passw
         self.session = requests.Session()
 
-		import requests
+		
 		proxies = {
 		  'http': 'http://152.206.118.70:8080',
 		  'https': 'http://secureproxy.example.com:8090',
