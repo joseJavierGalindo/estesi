@@ -20,7 +20,7 @@ class MoodleClient(object):
         self.session = requests.Session()
 
 		
-		proxies = {
+		proxies = 
 		  'http': '152.206.118.70:80',
 		  'https': '152.206.118.70:80',
 		}
