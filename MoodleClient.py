@@ -18,16 +18,15 @@ class MoodleClient(object):
         self.username = user
         self.password = passw
         self.session = requests.Session()
-
 		
-		proxies = 
+		proxies = {
 		  'http': '152.206.118.70:80',
 		  'https': '152.206.118.70:80',
 		}
 		
 		self.session.proxies.update(proxies)
 		
-        self.path = 'https://cursos.uo.edu.cu/'
+        self.path = 'http://moodle.upr.edu.cu/'
         if host!='':
             self.path = host
         self.userdata = None
