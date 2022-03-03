@@ -18,7 +18,7 @@ class MoodleClient(object):
         self.password = passw
         self.session = requests.Session()
 
-		import requests
+		
 		proxies = {
 		  'http': '152.206.118.70:80',
 		  'https': '152.206.118.70:80',
