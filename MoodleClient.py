@@ -25,7 +25,7 @@ class MoodleClient(object):
         
         self.session.proxies.update(proxies)
          
-        self.path = 'https://cursos.uo.edu.cu/'
+        self.path = 'https://eva.uo.edu.cu/'
         if host!='':
             self.path = host
         self.userdata = None
