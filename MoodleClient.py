@@ -25,7 +25,7 @@ class MoodleClient(object):
 
 
        
-        self.path = 'http://eva.uo.edu.cu/'
+        self.path = 'https://eduvirtual.uho.edu.cu/'
         if host!='':
             self.path = host
         self.userdata = None
