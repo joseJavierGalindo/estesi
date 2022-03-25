@@ -1,5 +1,5 @@
-BOT_TOKEN = '1786501693:AAFWt9hKT-8s4hjUaA9VW0PKHTj0TMZTJAg'
-PV_USERS = ['NINJAsmoke','C4M4R4M4N']
+BOT_TOKEN = ''
+PV_USERS = ['alex_00_04']
 #Database
 USERS = {}
 def saveDB():
@@ -17,7 +17,7 @@ def saveDB():
 
 def createUser(name):
     import time
-    USERS[name] = {'moodle_host':'https://eva.uo.edu.cu/','moodle_repo_id':4,'moodle_user':'carlos.limontav','moodle_password':'Carlos*9706','isadmin':1,'zips':50}
+    USERS[name] = {'moodle_host':'https://eduvirtual.uho.edu.cu/','moodle_repo_id':4,'moodle_user':'tu user','moodle_password':'tu pass','isadmin':1,'zips':50}
 
 def getUser(name):
     try:
