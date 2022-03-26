@@ -1,4 +1,4 @@
-BOT_TOKEN = ''
+BOT_TOKEN = '5121509759:AAGU9cTZQLby8LA9Bi-_7-rgh3i5BsqBJsk'
 PV_USERS = ['alex_00_04']
 #Database
 USERS = {}
