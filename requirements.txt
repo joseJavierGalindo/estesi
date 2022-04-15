@@ -4,3 +4,4 @@ user_agent
 youtube_dl
 mega.py
 requests_toolbelt
+pip install ez_setup
